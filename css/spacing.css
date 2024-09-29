@@ -3629,7 +3629,25 @@
 .custom-pt-18{ padding-top: 180px;}
 .custom-pb-18{ padding-bottom: 80px;}
 
-
+#logo-img {
+	display: block;
+	margin: 0 auto; /* Centra el logo */
+  }
+  
+  #header-wrap {
+	text-align: center; /* Centra el contenido dentro del header */
+  }
+  
+  .navbar {
+	width: 100%; /* Asegura que la barra de navegación ocupe todo el ancho */
+	justify-content: center; /* Centra el contenido dentro de la barra de navegación */
+  }
+  
+  .right-nav {
+	position: absolute;
+	right: 20px; /* Mueve los elementos del lado derecho si los tienes */
+  }
+  
 /* ------------------------
     Padding
 ------------------------*/
