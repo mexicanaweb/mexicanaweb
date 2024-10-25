@@ -57,21 +57,30 @@ main
 
 
 
-/* Estilo para el selector de idioma en el menú */
+
+
+/* Estilo del selector de idioma en el menú */
 #google_translate_element {
     display: inline-block;
-    margin-top: 5px;
+    color: white; /* Cambia según el color de tu menú */
     padding: 10px;
-    color: white; /* Ajusta el color del texto */
 }
 
 .goog-te-combo {
-    background-color: #4CAF50; /* Color del botón */
-    color: white;
+    background-color: #333; /* Mismo color del fondo del menú */
+    color: white; /* Color del texto */
     border: none;
     padding: 5px;
     cursor: pointer;
+    font-size: 14px; /* Ajusta el tamaño de fuente según el menú */
 }
+
+
+
+
+
+
+
 ------------------------------------------- */
 *,
 *:before,
