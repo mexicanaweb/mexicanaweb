@@ -55,6 +55,23 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
 
 main
 
+
+
+/* Estilo para el selector de idioma en el menú */
+#google_translate_element {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px;
+    color: white; /* Ajusta el color del texto */
+}
+
+.goog-te-combo {
+    background-color: #4CAF50; /* Color del botón */
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
 ------------------------------------------- */
 *,
 *:before,
